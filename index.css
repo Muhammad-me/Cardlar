@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.row h1{
+    font-size: 35px;
+}
+.box{
+    width: 300px;
+    height: 250px;
+    padding: 20px 30px;
+}
+.b1{
+    background: blue;
+}
+.b2{
+    background: gold;
+}
+.b3{
+    background: crimson;
+}
+.box h1{
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.box p{
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
